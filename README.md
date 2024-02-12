@@ -141,17 +141,6 @@ True |           31383|            11.44|            3688|             3.63|    
 False|          229500|            83.67|           12524|            12.32|           52750|            25.04|          138527|            66.73
 NA   |           13420|             4.89|           85443|            84.05|            6887|             3.27|           30103|            14.50
 
-#### Cluster Profiles
-
-The below table provides an overview of general characteristics observed in each of the four clusters.
-
-<!-- <img src="img/icons/cluster_profiles.png" alt="icon_table" width="600" height="325"> -->
-![cluster_profiles](img/icons/cluster_profiles.png)
-
-### Mapping Simulations
-
-Please see the [web application](http://ec2-52-200-8-2.compute-1.amazonaws.com:8105/#) developed for this project to create a county-by-county heat map of the United States and marker cluster map of any country in the world for each of the four clusters.
-
 ### Next Steps
 Segmenting simulation runs is an important first step in understanding who is using HOMER's software and where its partners can best focus their marketing and outreach. A close look at the four clusters illuminates distinct characteristics that suggest a varying degree of seriousness or interest from the user. While this information can be immediately helpful in targeting the right users, further exploration and model tuning will certainly add value and precision to determining the realness of a simulated project. Below are a few suggestions of ways to expand upon the findings of this project:   
 - A review of feature importance would likely result in new or adjusted model variables that could lead to more robust clustering. Furthermore, applying a heuristic weight to each simulation and exploring graph theory to model pairwise relationships between observations is a possible way to arrive at a 'realness' metric.
